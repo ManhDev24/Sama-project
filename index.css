@@ -94,7 +94,6 @@
     top: 0;
     left: 0;
     width: 100%;
-
 }
 
 /* body */
@@ -121,14 +120,14 @@
 }
 
 .saCarousel__content .title p {
-    font-weight: 600;
+    font-weight: 800;
     font-size: 22px;
     color: #f55f8d;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .saCarousel__content .title h2 {
-    font-size: 70px;
+    font-size: 65px;
     line-height: 1.1;
     font-weight: 800;
     color: black;
@@ -139,12 +138,55 @@
     color: grey;
 }
 
-.saCarousel__article ul {
-    list-style: none;
-
-}
-
 .saCarousel__article p {
     font-size: 18px;
     margin-bottom: 15px;
+}
+.saCarosel__left .saCarousel__article li {
+    font-size: 20px;
+    padding: 10px 5px 10px 0;
+    list-style: none;
+}
+.saCarosel__left .saCarousel__article i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    font-weight: 900;
+    margin-right: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    border-radius: 35px;
+    background-size: 200%;
+}
+.saCarosel__left .saCarousel__article button {
+    padding: 20px 35px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    color: white;
+    cursor: pointer;
+    line-height: 1.2;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, #dd5e89 0%, #f7bb97 51%, #dd5e89 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-gradient:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }
