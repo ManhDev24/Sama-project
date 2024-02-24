@@ -89,6 +89,14 @@
     line-height: 1.2;
 }
 
+.header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 /* body */
 .saCarousel {
     background-image: url(./img/pic2.png);
@@ -100,5 +108,7 @@
 .saCarousel .container {
     width: 1200px;
     margin: auto;
-    background-color: red;
+    background-image: url(./img/);
 }
+
+
