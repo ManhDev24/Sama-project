@@ -111,4 +111,35 @@
     background-image: url(./img/);
 }
 
+.saCarousel__content {
+    display: flex;
+}
 
+.saCarousel__content .title p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #f55f8d;
+    margin-bottom: 20px;
+}
+
+.saCarousel__content .title h2 {
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.saCarousel__article {
+    color: grey;
+}
+
+.saCarousel__article ul {
+    list-style: none;
+
+}
+
+.saCarousel__article p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
