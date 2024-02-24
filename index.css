@@ -190,3 +190,61 @@
     color: #fff;
     text-decoration: none;
 }
+/* start services */
+
+.services {
+    background-image: url(./img/bg2.png);
+    text-align: center;
+    background-size: cover;
+    background-position: top center;
+    padding: 80px 70px;
+}
+.services .title * {
+    margin-bottom: 20px;
+}
+.services .title p {
+    font-weight: 600px;
+    font-size: 22px;
+    color: #f55f8d;
+}
+.services .title h2 {
+    font-weight: 800px;
+    font-size: 70px;
+    color: black;
+    line-height: 1.1;
+}
+.service__content {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 50px;
+    justify-content: center; 
+}
+
+.service__item {
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 45px;
+    transform: translateY(0);
+    transition: all 0.5s;
+    border-image: 100 round;
+    border: 3px solid transparent;
+    height: 400px;
+    width: 350px;
+    margin-top: 20px;
+
+}
+.service__item:hover {
+    transform: translateY(-20px);
+    border-image: url(./img/br.png) 1 round;
+}
+.service__item img {
+    width: 215px;
+}
+
+.service__item h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #262626;
+    margin: 15px 0;
+}
