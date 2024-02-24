@@ -113,6 +113,11 @@
 
 .saCarousel__content {
     display: flex;
+    align-items: center;
+}
+
+.saCarousel__content .saCarosel__left {
+    margin-right: 20px;
 }
 
 .saCarousel__content .title p {
