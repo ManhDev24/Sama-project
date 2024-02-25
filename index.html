@@ -15,9 +15,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-     <!-- FONT Line Awesome -->
-     <link rel="stylesheet"
-     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- FONT Line Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +33,11 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Fancy-box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
     />
     <!-- CSS -->
     <link rel="stylesheet" href="./index.css" />
@@ -321,15 +328,10 @@
               <img src="./img/pic1_2.jpg" alt="" />
               <div class="portfolio__overlay">
                 <div class="portfolio__icon">
-                  <a
-                    class="lightimg"
-                    data-thumb="./img/pic1_2.jpg"
-                    data-fancybox="gallery"
-                    href="./img/pic1_2.jpg"
-                    data-caption="Design 1"
-                  >
+                  <a href="./img/pic1_2.jpg" data-fancybox="gallery" data-caption="Caption #1">
                     <i class="la la-plus"></i>
                   </a>
+                  
                 </div>
                 <div class="portfolio__text">
                   <h3>Software Landing</h3>
@@ -385,10 +387,10 @@
                     class="lightimg"
                     data-thumb="./img/pic4.jpg"
                     data-fancybox="gallery"
-                    href="./img/pic.jpg"
+                    href="./img/pic4.jpg"
                     data-caption="Design 1"
                   >
-                  <i class="la la-plus"></i>
+                    <i class="la la-plus"></i>
                   </a>
                 </div>
                 <div class="portfolio__text">
@@ -467,6 +469,14 @@
       $(".counter").counterUp({
         delay: 10,
         time: 3000,
+      });
+    </script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- Fancybox-config -->
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        // Your custom options for a specific gallery
       });
     </script>
   </body>
