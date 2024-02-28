@@ -802,6 +802,10 @@ footer::before {
     color: black;
 }
 
+.footer__text h2 {
+    font-size: 28px;
+}
+
 .footer__form {
     width: 50%;
 
